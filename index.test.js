@@ -1,4 +1,4 @@
-import strictEquals from "./index.js";
+import equals from "./index.js";
 
 describe("Given a comparision function", () => {
   describe("When it receives 1 and 1", () => {
@@ -7,7 +7,7 @@ describe("Given a comparision function", () => {
       const valueB = 1;
       const expectedResult = true;
 
-      const result = object.is(valueA, valueB);
+      const result = equals(valueA, valueB);
 
       expect(result).toBe(expectedResult);
     });
