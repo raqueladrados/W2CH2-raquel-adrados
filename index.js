@@ -6,3 +6,5 @@ const strictEquals = (valueA, valueB) => {
   }
 };
 strictEquals();
+
+export default strictEquals;
